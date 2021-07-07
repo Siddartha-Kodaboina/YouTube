@@ -1,0 +1,22 @@
+.sidebar{
+    flex:0.2;
+    height:90vh;
+    width:20vw;
+    padding:0px 22px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top:70px;
+    z-index:1;
+    display:block;
+}
+.sidebar__inner{
+    flex:1;
+}
+hr{
+    border: 0;
+    height:1px;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
